@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-900 ">
+    <div className="bg-white dark:bg-slate-900 min-h-screen">
       <div className="bg-slate-100 rounded-b-lg dark:bg-slate-800 ">
         <div className="lg:flex lg:items-center lg:justify-between p-8">
           <div>
@@ -35,7 +35,7 @@ function App() {
             </h2>
           </div>
           <div className="flex justify-center item-center border-t-2 border-gray-900 pt-5 w- m-auto lg:hidden dark:border-slate-600 "></div>
-          <div className="flex items-center">
+          <div className="flex items-center ">
             <p className="font-bold text-gray-500 dark:text-slate-400 pr-1">
               Dark Mode
             </p>
@@ -50,7 +50,7 @@ function App() {
       <div className="lg:flex">
         <div className="flex flex-col pt-5 lg:basis-1/4 " alt="facebook">
           <div className=" bg-blue-500 lg:w-1/16 w-10/12 h-1 m-auto rounded-t-lg"></div>
-          <div className="bg-gray-100 lg:w-1/16 w-10/12 h-64 m-auto rounded-b-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="bg-gray-100 lg:w-1/16 w-10/12 h-64 m-auto rounded-b-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="flex flex-row justify-center items-center pt-7">
               <img className="w-1/12 h-1/12" src={facebook} alt="facebook" />
               <p className="font-bold  text-gray-500 pl-2 dark:text-slate-400">
@@ -72,7 +72,7 @@ function App() {
 
         <div className="flex flex-col pt-5 lg:basis-1/4">
           <div className=" bg-blue-400 lg:w-1/16 w-10/12 h-1 m-auto rounded-t-lg"></div>
-          <div className="bg-gray-100 lg:w-1/16 w-10/12 h-64 m-auto rounded-b-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="bg-gray-100 lg:w-1/16 w-10/12 h-64 m-auto rounded-b-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="flex flex-row justify-center items-center pt-7">
               <img className="w-1/12 h-1/12" src={twitter} alt="twitter" />
               <p className="font-bold  text-gray-500 pl-2 dark:text-slate-400">
@@ -94,7 +94,7 @@ function App() {
 
         <div className="flex flex-col pt-5 lg:basis-1/4">
           <div className=" bg-gradient-to-r from-yellow-500 to-fuchsia-500 lg:w-1/16 w-10/12 h-1 m-auto rounded-t-lg"></div>
-          <div className="bg-gray-100  lg:w-1/16 w-10/12 h-64 m-auto rounded-b-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="bg-gray-100  lg:w-1/16 w-10/12 h-64 m-auto rounded-b-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="flex flex-row justify-center items-center pt-7">
               <img className="w-1/12 h-1/12" src={instagram} alt="instagram" />
               <p className="font-bold  text-gray-500 pl-2 dark:text-slate-400">
@@ -116,7 +116,7 @@ function App() {
 
         <div className="flex flex-col pt-5 lg:basis-1/4 ">
           <div className=" bg-red-700 lg:w-1/16 w-10/12 h-1 m-auto rounded-t-lg"></div>
-          <div className="bg-gray-100 lg:w-1/16 w-10/12 h-64 m-auto rounded-b-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="bg-gray-100 lg:w-1/16 w-10/12 h-64 m-auto rounded-b-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="flex flex-row justify-center items-center pt-7">
               <img className="w-1/12 h-1/12" src={youtube} alt="youtube" />
               <p className="font-bold  text-gray-500 pl-2 dark:text-slate-400">
@@ -143,7 +143,7 @@ function App() {
 
       <div className="lg:flex">
         <div className="pt-5 lg:basis-1/4 ">
-          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="basis-1/2">
               <div className="flex justify-start pl-6 pt-6">
                 <div>
@@ -177,7 +177,7 @@ function App() {
         </div>
 
         <div className="pt-5 lg:basis-1/4">
-          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="basis-1/2">
               <div className="flex justify-start pl-6 pt-6">
                 <div>
@@ -211,7 +211,7 @@ function App() {
         </div>
 
         <div className="pt-5 lg:basis-1/4">
-          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="basis-1/2">
               <div className="flex justify-start pl-6 pt-6">
                 <div>
@@ -245,7 +245,7 @@ function App() {
         </div>
 
         <div className="pt-5 lg:basis-1/4">
-          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="basis-1/2">
               <div className="flex justify-start pl-6 pt-6">
                 <div>
@@ -281,7 +281,7 @@ function App() {
 
       <div className="lg:flex">
         <div className="pt-5 lg:basis-1/4">
-          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="basis-1/2">
               <div className="flex justify-start pl-6 pt-6">
                 <div>
@@ -315,7 +315,7 @@ function App() {
         </div>
 
         <div className="pt-5 lg:basis-1/4">
-          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="basis-1/2">
               <div className="flex justify-start pl-6 pt-6">
                 <div>
@@ -349,7 +349,7 @@ function App() {
         </div>
 
         <div className="pt-5 lg:basis-1/4">
-          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="basis-1/2">
               <div className="flex justify-start pl-6 pt-6">
                 <div>
@@ -383,7 +383,7 @@ function App() {
         </div>
 
         <div className="pt-5 pb-5 lg:basis-1/4">
-          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700">
+          <div className="flex flex-row bg-gray-100 w-10/12 h-32 m-auto rounded-lg dark:bg-slate-800 dark:hover:bg-slate-700 hover:bg-gray-200">
             <div className="basis-1/2">
               <div className="flex justify-start pl-6 pt-6">
                 <div>
